@@ -13,7 +13,7 @@ An open-source, user-level anti-cheat tool developed for Linux systems. It scans
 
 ## 📥 Installation
 
-1. Download the latest release from the [Releases](https://github.com/YOUR_USERNAME/TLAC/releases) page.
+1. Download the latest release from the [Releases](https://github.com/TuncorNewAc/TLAC-MODERN-LOCAL-ANTI-CHEAT/releases) page.
 2. Extract the archive:
    ```bash
    tar -xvf TLAC-v0.1.0-x86_64-linux.tar.gz
