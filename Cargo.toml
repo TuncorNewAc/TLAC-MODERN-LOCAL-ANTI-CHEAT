@@ -5,9 +5,11 @@ edition = "2021"
 
 [lib]
 name = "anti_cheat"
+# path = "src/lib.rs"
 
 [[bin]]
 name = "Anti-Cheat"
+path = "src/main.rs"
 
 [[bin]]
 name = "ac-server"
