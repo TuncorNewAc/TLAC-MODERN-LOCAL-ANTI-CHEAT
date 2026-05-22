@@ -17,3 +17,8 @@ An open-source, user-level anti-cheat tool developed for Linux systems. It scans
 2. Extract the archive:
    ```bash
    tar -xvf TLAC-v0.1.0-x86_64-linux.tar.gz
+   3. Run the install.sh:
+   cd TLAC-v0.1.0-x86_64-linux/
+   ./install.sh
+
+   if want sudo. work with sudo.
