@@ -238,7 +238,17 @@ async fn report_suspicious_activity(pid: u32, reason: String, socket_path: &str)
 fn init_db() -> Result<Connection, Box<dyn std::error::Error>> 
 {
     let conn = Connection::open("anti_cheat.db")?;
-    conn.execute("CREATE TABLE IF NOT EXISTS hwid_bans (...)", [],)?;
+    
+    conn.execute(
+        "CREATE TABLE IF NOT EXISTS hwid_bans (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            hwid TEXT NOT NULL UNIQUE,
+            reason TEXT DEFAULT 'Cheating detected',
+            banned_at TEXT DEFAULT CURRENT_TIMESTAMP
+        )",
+        [],
+    )?;
+    
     Ok(conn)
 }
 
