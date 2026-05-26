@@ -12,4 +12,5 @@ sudo TLAC <PID>
 
 Example:
 # Scan process with PID 1234:
-sudo TLAC 1234
+sudo ac-server
+sudo Anti-Cheat 1234
