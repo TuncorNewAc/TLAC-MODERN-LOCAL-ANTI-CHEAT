@@ -1,11 +1,11 @@
 [package]
-name = "anti-cheat"
+name = "Anti-Cheat"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
 name = "anti_cheat"
-# path = "src/lib.rs"
+path = "src/lib.rs"
 
 [[bin]]
 name = "Anti-Cheat"
